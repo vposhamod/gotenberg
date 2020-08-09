@@ -19,7 +19,7 @@ TemporaryDirectory is the directory
 where all the resources directory
 are located.
 */
-const TemporaryDirectory string = "tmp"
+const TemporaryDirectory string = "/tmp"
 
 // Resource helps managing
 // arguments and files for a conversion.
