@@ -101,7 +101,7 @@ func (p officePrinter) unoconv(ctx context.Context, fpath, destination string) e
 		}
 		args := []string{
 			"--user-profile",
-			fmt.Sprintf("///tmp/%s", dirName),
+			fmt.Sprintf("/tmp/%s", dirName),
 			"--port",
 			fmt.Sprintf("%d", port),
 			"--format",
